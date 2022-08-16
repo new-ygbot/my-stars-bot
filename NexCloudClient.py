@@ -100,9 +100,9 @@ class NexCloudClient(object):
 
 
 #proxy = ProxyCloud('181.225.253.17',4545)
-#client = NexCloudClient('alvaro.garcia@reduc.edu.cu','covid*.403G959j282',path='https://nube.reduc.edu.cu/')
-#loged = client.login()
-#if loged:
-#    data = client.upload_file('requirements.txt')
-#    print('loged')
-#    pass
+client = NexCloudClient('alvaro.garcia@reduc.edu.cu','covid*.403G959j282',path='https://nube.reduc.edu.cu/')
+loged = client.login()
+if loged:
+    data = client.upload_file('requirements.txt')
+   print('loged')
+    pass
